@@ -1,16 +1,17 @@
 # SDEInterviewPrep
 This repository is updated frequently to reflect my preparation for software engineering interviews in 2020. 
 
-### Data Structure Implementations
+## Data Structures
+#### Internal Implementations
 * Resizable array
 * Queue and stack (circular array / linked list)
 * HashMap (seperation chaining)
 * Binary heap 
 
-### Data Structure Alternative Representations
+#### Alternative Representations
 * Serialize and deserialize trees (Regular / BST)
 
-### Algorithms
+## Algorithms
 #### Binary Search
 * Classical binary search
 * Find first occurrence
@@ -80,4 +81,19 @@ This repository is updated frequently to reflect my preparation for software eng
 * Word break problem
 * Edit distance
 * Largest enclosed area (square of 1s / ...)
+
+## Java Language
+* Final, finalize, finally
+* Static
+* Abstract class vs. interface
+* Overload vs. Override
+* Comparable and Comparator
+
+## Object-Oriented Design
+
+
+## System Design
+
+
+## Full-Stack Development
 
