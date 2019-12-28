@@ -5,7 +5,7 @@ This repository is updated frequently to reflect my preparation for software eng
 #### Internal Implementations
 * Resizable array
 * Queue and stack (circular array / linked list)
-* HashMap (seperation chaining)
+* HashMap (seperate chaining)
 * Binary heap 
 
 #### Alternative Representations
