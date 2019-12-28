@@ -55,7 +55,7 @@ This repository is updated frequently to reflect my preparation for software eng
 * Build trees based on traversals
 * Least Common Ancestor problems (without parent pointer / with parent pointer)
 
-### Heaps and Best First Search
+### Priority Queue and Best First Search
 * Kth problem (Kth smallest in unsorted array, Kth closest points to origin in 3D)
 * Bipartite graph
 
@@ -88,6 +88,8 @@ This repository is updated frequently to reflect my preparation for software eng
 * Abstract class vs. interface
 * Overload vs. Override
 * Comparable and Comparator
+* Exception handling
+* Concurrency
 
 ## Object-Oriented Design
 COMING SOON
