@@ -1,8 +1,14 @@
 # SDEInterviewPrep (2020)
 This repository is updated frequently to reflect my preparation for software engineering interviews in 2020. 
 
-[ Description. ](#desc)
+[Data Structures](#dataStructures)
+[Algorithms](#algo)
+[Java Language] (#javaLang)
+[Object-Oriented Design] (#ood)
+[System Design] (#systemDesign)
+[Full-Stack Development] (#fullStack)
 
+<a name="dataStructures"></a>
 ## Data Structures
 ### Internal Implementations
 * Resizable array
@@ -13,7 +19,7 @@ This repository is updated frequently to reflect my preparation for software eng
 ### Alternative Representations
 * Serialize and deserialize trees (Regular / BST)
 
-<a name="desc"></a>
+<a name="algo"></a>
 ## Algorithms
 ### Bit Manipulations
 #### Building Blocks
