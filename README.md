@@ -1,6 +1,8 @@
 # SDEInterviewPrep (2020)
 This repository is updated frequently to reflect my preparation for software engineering interviews in 2020. 
 
+[ Description. ](#desc)
+
 ## Data Structures
 ### Internal Implementations
 * Resizable array
@@ -11,6 +13,7 @@ This repository is updated frequently to reflect my preparation for software eng
 ### Alternative Representations
 * Serialize and deserialize trees (Regular / BST)
 
+<a name="desc"></a>
 ## Algorithms
 ### Bit Manipulations
 #### Building Blocks
