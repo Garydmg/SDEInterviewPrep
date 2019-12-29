@@ -16,9 +16,9 @@ This repository is updated frequently to reflect my preparation for software eng
 #### Building Blocks
 Operations | Code
 ----|----
-Check kth bit | (x >> k) & 1
-Set kth bit to 1 | x = x | (1 << k)
-Set kth bit to 0 | x = x & ~(1 << k)
+Check k-th bit | (x >> k) & 1
+Set k-th bit to 1 | x = x \| (1 << k)
+Set k-th bit to 0 | x = x & ~(1 << k)
 
 
 
