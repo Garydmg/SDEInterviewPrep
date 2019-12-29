@@ -1,12 +1,12 @@
 # SDEInterviewPrep (2020)
 This repository is updated frequently to reflect my preparation for software engineering interviews in 2020. 
 
-[Data Structures](#dataStructures)
-[Algorithms](#algo)
-[Java Language] (#javaLang)
-[Object-Oriented Design] (#ood)
-[System Design] (#systemDesign)
-[Full-Stack Development] (#fullStack)
+* [Data Structures](#dataStructures)
+* [Algorithms](#algo)
+* [Java Language](#java)
+* [Object Oriented Design](#ood)
+* [System Design](#system)
+* [Full-Stack Development](#fullStack)
 
 <a name="dataStructures"></a>
 ## Data Structures
@@ -102,6 +102,7 @@ Set k-th bit to 0 | x = x & ~(1 << k)
 * Edit distance
 * Largest enclosed area (square of 1s / ...)
 
+<a name="java"></a>
 ## Java Language
 * Final, finalize, finally
 * Static
@@ -111,11 +112,14 @@ Set k-th bit to 0 | x = x & ~(1 << k)
 * Exception handling
 * Concurrency
 
+<a name="ood"></a>
 ## Object-Oriented Design
 COMING SOON
 
+<a name="system"></a>
 ## System Design
 COMING SOON
 
+<a name="fullStack"></a>
 ## Full-Stack Development
 COMING SOON
