@@ -14,7 +14,7 @@ package implementation;
  * @param <E>
  */
 public class ArrayDeque<E> implements Queue<E>, Deque<E> {
-    final private int DEFAULT_CAPACITY = 5;
+    final static private int DEFAULT_CAPACITY = 5;
     private int size;
     private int capacity = DEFAULT_CAPACITY;
     private int head = 0;
@@ -44,7 +44,8 @@ public class ArrayDeque<E> implements Queue<E>, Deque<E> {
      * @param e
      * @return
      */
-    @Override public boolean offer(E e) {
+    @Override
+    public boolean offer(E e) {
         // if the array is full, expand
         if (head == tail) {
             expandCapacity();
@@ -55,14 +56,16 @@ public class ArrayDeque<E> implements Queue<E>, Deque<E> {
         return true;
     }
 
-    @Override public E peek() {
+    @Override
+    public E peek() {
         if (isEmpty()) {
             return null;
         }
         return array[idxForward(head)];
     }
 
-    @Override public E poll() {
+    @Override
+    public E poll() {
         if (isEmpty()) {
             return null;
         }
@@ -81,7 +84,8 @@ public class ArrayDeque<E> implements Queue<E>, Deque<E> {
      * @param e
      * @return
      */
-    @Override public boolean offerFirst(E e) {
+    @Override
+    public boolean offerFirst(E e) {
         if (head == tail) {
             expandCapacity();
         }
@@ -91,26 +95,31 @@ public class ArrayDeque<E> implements Queue<E>, Deque<E> {
         return true;
     }
 
-    @Override public boolean offerLast(E e) {
+    @Override
+    public boolean offerLast(E e) {
         return offer(e);
     }
 
-    @Override public E peekFirst() {
+    @Override
+    public E peekFirst() {
         return peek();
     }
 
-    @Override public E peekLast() {
+    @Override
+    public E peekLast() {
         if (isEmpty()) {
             return null;
         }
         return array[idxBackward(tail)];
     }
 
-    @Override public E pollFirst() {
+    @Override
+    public E pollFirst() {
         return poll();
     }
 
-    @Override public E pollLast() {
+    @Override
+    public E pollLast() {
         E lastElement = peekLast();
         int last = idxBackward(tail);
         array[last] = null;
