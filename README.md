@@ -85,7 +85,7 @@ Set k-th bit to 0 | x = x & ~(1 << k)
 
 ### Strings
 * Top K frequent words
-* [Remove Adjacent Repeated Characters] (../master/algocode/src/algo/RemoveAdjacentRepeatedCharacters.java)
+* [Remove Adjacent Repeated Characters](../master/algocode/src/algo/RemoveAdjacentRepeatedCharacters.java)
 * Substring problem (check existence / replacement)
 * String manipulation (compression / decompression / abbreviation)
 * All anagrams
