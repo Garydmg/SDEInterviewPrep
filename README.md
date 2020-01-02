@@ -12,7 +12,7 @@ This repository is updated frequently to reflect my preparation for software eng
 ## Data Structures
 ### Internal Implementations
 * [Resizable array](../master/algocode/src/implementation/ArrayList.java)
-* Queue and stack (circular array / linked list)
+* Queue and stack ([Circular Array](../master/algocode/src/implementation/ArrayDeque.java)/ linked list)
 * HashMap (seperate chaining)
 * Binary heap 
 
