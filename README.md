@@ -28,6 +28,8 @@ Operations | Code
 Check k-th bit | (x >> k) & 1
 Set k-th bit to 1 | x = x \| (1 << k)
 Set k-th bit to 0 | x = x & ~(1 << k)
+#### Practice Usage of XOR
+COMING SOON
 
 ### Binary Search
 * Classical binary search
