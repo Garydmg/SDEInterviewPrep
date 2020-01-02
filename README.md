@@ -28,16 +28,21 @@ Operations | Code
 Check k-th bit | (x >> k) & 1
 Set k-th bit to 1 | x = x \| (1 << k)
 Set k-th bit to 0 | x = x & ~(1 << k)
-#### Practice Usage of XOR
+#### Practical Usage of XOR
 COMING SOON
 
 ### Binary Search
-* Classical binary search
+#### Classical Binary Search
+##### Usage
+##### Pitfall
+
+#### Binary Search with Post-Processing
 * Find first occurrence
 * Find last occurrence 
-* Search in 2D matrix
 * Search in shifted sorted array
 * Search in bitonic array
+
+#### Binary Search Advanced Applications
 * Median of two sorted arrays
 * K closest in sorted array
 * K closest in two sorted arrays
