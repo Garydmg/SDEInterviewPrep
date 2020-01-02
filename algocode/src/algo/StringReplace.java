@@ -9,6 +9,7 @@ public class StringReplace {
         }
         return replaceLarger(array, source, target);
     }
+
     private String replaceSmaller(char[] input, String source, String target) {
         int slow = 0;
         int fast = 0;
@@ -24,6 +25,7 @@ public class StringReplace {
         }
         return new String(input, 0, slow);
     }
+
     private String replaceLarger(char[] input, String source, String target) {
         List<Integer> matchIdxEnd = findMatchIdxEnd(input, source);
         int numMatches = matchIdxEnd.size();
@@ -47,6 +49,7 @@ public class StringReplace {
         int length = result.length - slow - 1;
         return new String(result, slow + 1, length);
     }
+
     private List<Integer> findMatchIdxEnd(char[] input, String source) {
         List<Integer> matchIdxEnd = new ArrayList<>();
         for (int i = 0; i <= input.length - source.length(); i++) {
@@ -56,11 +59,13 @@ public class StringReplace {
         }
         return matchIdxEnd;
     }
+
     private void copyTarget(int idx, char[] input, String target) {
         for (int i = 0; i < target.length(); ++i) {
             input[idx++] = target.charAt(i);
         }
     }
+
     private boolean isSubstring(int idx, char[] input, String source) {
         for (int i = 0; i < source.length(); ++i) {
             if (input[idx + i] != source.charAt(i)) {
