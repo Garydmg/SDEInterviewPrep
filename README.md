@@ -12,7 +12,7 @@ This repository is updated frequently to reflect my preparation for software eng
 ## Data Structures
 ### Internal Implementations
 * [Resizable array](../master/algocode/src/implementation/ArrayList.java)
-* Queue and stack ([Circular Array](../master/algocode/src/implementation/ArrayDeque.java)/ linked list)
+* Queue and stack ([Circular Array](../master/algocode/src/implementation/ArrayDeque.java) / linked list)
 * HashMap (seperate chaining)
 * Binary heap 
 
@@ -28,9 +28,6 @@ Operations | Code
 Check k-th bit | (x >> k) & 1
 Set k-th bit to 1 | x = x \| (1 << k)
 Set k-th bit to 0 | x = x & ~(1 << k)
-
-
-
 
 ### Binary Search
 * Classical binary search
@@ -88,7 +85,7 @@ Set k-th bit to 0 | x = x & ~(1 << k)
 
 ### Strings
 * Top K frequent words
-* Remove adjacent repeated characters
+* [Remove Adjacent Repeated Characters] (../master/algocode/src/algo/RemoveAdjacentRepeatedCharacters.java)
 * Substring problem (check existence / replacement)
 * String manipulation (compression / decompression / abbreviation)
 * All anagrams
