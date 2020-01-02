@@ -25,6 +25,7 @@ public class RemoveAdjacentRepeatedCharacters {
     /**
      * "aabccdc" -> "bccdc" -> "bdc"
      * Similar questions: LC1047, LC1209
+     * Use two pointers to simulate stack
      * @param input
      * @return
      */
@@ -47,6 +48,35 @@ public class RemoveAdjacentRepeatedCharacters {
             }
         }
         return new String(array, 0, slow);
+    }
+
+
+    String stringDedupIVStack(String input) {
+        if (input == null || input.length() <= 1) {
+            return input;
+        }
+        char[] array = input.toCharArray();
+
+        Deque<Character> stack = new ArrayDeque<>();
+        int i = 0;
+        while (i < array.length) {
+            if (!stack.isEmpty() && array[i] == stack.peekFirst()) {
+                // move i until it is different from top of stack
+                while (i < array.length && array[i] == stack.peekFirst()) {
+                    i++;
+                }
+                stack.pollFirst();
+            }
+            else {
+                stack.offerFirst(array[i++]);
+            }
+        }
+        i = 0;
+        while (!stack.isEmpty()) {
+            array[i++] = stack.pollLast();
+        }
+
+        return new String(array, 0, i);
     }
 
     public static void main(String[] args) {
