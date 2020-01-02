@@ -86,7 +86,7 @@ Set k-th bit to 0 | x = x & ~(1 << k)
 ### Strings
 * Top K frequent words
 * [Remove Adjacent Repeated Characters](../master/algocode/src/algo/RemoveAdjacentRepeatedCharacters.java)
-* Substring problem ([Check Substring Exists](../master/algocode/src/algo/StrStr.java) / [String Replacement](../master/algocode/src/algo/StringReplace.java)
+* Substring problem ([Check Substring Exists](../master/algocode/src/algo/StrStr.java) / [String Replacement](../master/algocode/src/algo/StringReplace.java))
 * String manipulation ([Compression / Decompression](../master/algocode/src/algo/StringCompressDecompress.java) / Abbreviation)
 * All anagrams
 * Longest substring without repeating characters
