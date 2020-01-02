@@ -11,7 +11,7 @@ This repository is updated frequently to reflect my preparation for software eng
 <a name="dataStructures"></a>
 ## Data Structures
 ### Internal Implementations
-* [Resizable array] (https://github.com/Garydmg/SDEInterviewPrep/blob/master/algocode/src/implementation/ArrayList.java)
+* [Resizable array](../blob/master/algocode/src/implementation/ArrayList.java)
 * Queue and stack (circular array / linked list)
 * HashMap (seperate chaining)
 * Binary heap 
