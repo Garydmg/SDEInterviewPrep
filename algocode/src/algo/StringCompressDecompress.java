@@ -105,7 +105,7 @@ public class StringCompressDecompress {
         // return decoded length after handling "shorter" cases
         return slow;
     }
-    
+
     private String decodeLong(char[] input, int length) {
         // length is processed length after dealing with cases like "a0", "a1", "a2"
         int newLength = length;
