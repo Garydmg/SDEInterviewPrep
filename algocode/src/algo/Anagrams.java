@@ -15,7 +15,7 @@ public class Anagrams {
         if (longStr.length() == 0 || shortStr.length() > longStr.length()) {
             return result;
         }
-        // make a hash map to count frequency
+        // make a hash map for shorter string
         Map<Character, Integer> map = toMap(shortStr);
 
         // when matches == map.size(), all characters match
@@ -46,6 +46,7 @@ public class Anagrams {
                 }
             }
             if (matches == map.size()) {
+                // add starting index
                 result.add(i - shortStr.length() + 1);
             }
         }
