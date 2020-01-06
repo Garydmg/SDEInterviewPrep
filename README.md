@@ -23,11 +23,16 @@ This repository is updated frequently to reflect my preparation for software eng
 ## Algorithms
 ### Bit Manipulations
 #### Building Blocks
-Operations | Code
-----|----
-Check k-th bit | (x >> k) & 1
-Set k-th bit to 1 | x = x \| (1 << k)
-Set k-th bit to 0 | x = x & ~(1 << k)
+```Java
+// check k-th bit
+(x >> k) & 1
+
+// Set k-th bit to 1
+x = x | (1 << k)
+
+// Set k-th bit to 0
+x = x & ~(1 << k)
+```
 #### Practical Usage of XOR
 COMING SOON
 
@@ -104,7 +109,7 @@ COMING SOON
 * Array hopper (can reach destination / minimum jumps)
 * Word break problem
 * Edit distance
-* Largest enclosed area (square of 1s / ...)
+* [Largest Shape Problem](../master/algocode/src/algo/LargestShape.java)
 
 <a name="java"></a>
 ## Java Language
