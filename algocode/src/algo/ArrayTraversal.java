@@ -2,7 +2,12 @@ package algo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpiralTraversal {
+public class ArrayTraversal {
+    /**
+     * Traverse array spirally using recursion
+     * @param matrix
+     * @return
+     */
     public List<Integer> spiral(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
@@ -47,8 +52,22 @@ public class SpiralTraversal {
         helper(matrix, result, rowOffset + 1, colOffset + 1, rowSize - 2, colSize - 2);
     }
 
+    /**
+     * TODO
+     * Print array diagonally in the same direction
+     * @param matrix
+     */
+    public void diagonal(int[][] matrix) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return;
+        }
+        int numRow = matrix.length;
+        int numCol = matrix[0].length;
+        int numDiagonal = numRow + numCol - 1;
+
+    }
     public static void main(String[] args) {
-        SpiralTraversal sol = new SpiralTraversal();
+        ArrayTraversal sol = new ArrayTraversal();
         int[][] input = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
         System.out.println(sol.spiral(input));
     }
