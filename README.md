@@ -16,7 +16,6 @@ This repository is updated frequently to reflect my preparation for software eng
 Tip: Declare with interface, instantiate with implementation.  
 *Exception*: For PriorityQueue, use PriorityQueue for declaration and instantiation. 
 
-
 ### Internal Implementations
 * [Resizable array](../master/algocode/src/implementation/ArrayList.java)
 * Queue and stack ([Circular Array](../master/algocode/src/implementation/ArrayDeque.java) / linked list)
@@ -90,6 +89,7 @@ COMING SOON
 * Binary search tree basic operations (search / insert / delete)
 * Build trees based on traversals
 * Least Common Ancestor problems (without parent pointer / with parent pointer)
+* Iterator problems
 
 ### Priority Queue and Best First Search
 * Kth problem (Kth smallest in unsorted array, Kth closest points to origin in 3D)
@@ -123,6 +123,7 @@ COMING SOON
 * Final, finalize, finally
 * Static
 * Abstract class vs. interface
+* Types of classes
 * Overload vs. Override
 * Comparable and Comparator
 * Exception handling
