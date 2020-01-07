@@ -1,6 +1,15 @@
 package algo;
 
 public class LargestShape {
+    /**
+     * 0 1 0 0
+     * 1 1 1 1
+     * 0 1 0 0
+     * 0 1 0 0
+     * The largest cross has size 2 (from center)
+     * @param matrix
+     * @return
+     */
     public int largestCrossOfOnes(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return 0;
@@ -23,6 +32,43 @@ public class LargestShape {
         }
         return maxSize;
     }
+
+    /**
+     * 1 0 1 1 1
+     * 1 1 1 1 1
+     * 1 1 0 1 0
+     * 1 1 1 1 1
+     * 1 1 1 0 0
+     * The largest sub-square surrounded by 1 is 3
+     * @param matrix
+     * @return
+     */
+    public int largestSquareSurroundedByOne(int[][] matrix) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+        int rowNum = matrix.length;
+        int colNum = matrix[0].length;
+        // build memo
+        int[][] rightLeft = buildRightLeft(matrix, rowNum, colNum);
+        int[][] bottomUp = buildBottomTop(matrix, rowNum, colNum);
+        int largestSize = Integer.MIN_VALUE;
+        // loop through the matrix
+        for (int i = 0; i < rowNum; i++) {
+            for (int j = 0; j < colNum; j++) {
+                // check top and left edges, with matrix[i][j] as vertex
+                int longestSide = Math.min(rightLeft[i][j], bottomUp[i][j]);
+                // check bottom and right edges
+                for (int k = longestSide; k >= 1; k--) {
+                    if (bottomUp[i][j + k - 1] >= k && rightLeft[i + k - 1][j] >= k) {
+                        largestSize = Math.max(largestSize, k);
+                    }
+                }
+            }
+        }
+        return (largestSize == Integer.MIN_VALUE) ? 0 : largestSize;
+    }
+
     private int[][] buildLeftRight(int[][] matrix, int numRow, int numCol) {
         int[][] leftRight = new int[numRow][numCol];
         for (int i = 0; i < numRow; i++) {
@@ -98,9 +144,9 @@ public class LargestShape {
 
     public static void main(String[] args) {
         LargestShape sol = new LargestShape();
-//        int[][] input = {{0,1,0,0},{1,1,1,1},{0,1,0,0},{0,1,0,0}};
-        int[][] input = {{0,1,1,1,1},{1,0,1,1,1},{0,0,0,1,1}};
+        int[][] input = {{1,0,1,1,1},{1,1,1,1,1},{1,1,0,1,0},{1,1,1,1,1}};
         System.out.println(sol.largestCrossOfOnes(input));
+        System.out.println(sol.largestSquareSurroundedByOne(input));
     }
 
 }
