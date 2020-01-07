@@ -11,7 +11,8 @@ This repository is updated frequently to reflect my preparation for software eng
 <a name="dataStructures"></a>
 ## Data Structures
 ### Java Interface and Implementation Hierarchy 
-* Add pic
+<img src="https://github.com/Garydmg/SDEInterviewPrep/blob/master/media/Java_Interface_Implementation.png" width="450" height="240"/>
+
 ### Internal Implementations
 * [Resizable array](../master/algocode/src/implementation/ArrayList.java)
 * Queue and stack ([Circular Array](../master/algocode/src/implementation/ArrayDeque.java) / linked list)
