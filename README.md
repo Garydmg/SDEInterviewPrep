@@ -13,8 +13,8 @@ This repository is updated frequently to reflect my preparation for software eng
 ### Java Interface and Implementation Hierarchy 
 <img src="https://github.com/Garydmg/SDEInterviewPrep/blob/master/media/Java_Interface_Implementation.png" width="450" height="240"/>
 
-Tip: Declare with interface, instantiate with implementation.
-Exception: For PriorityQueue, use PriorityQueue for declaration and instantiation. 
+**Tip**: Declare with interface, instantiate with implementation.  
+**Exception**: For PriorityQueue, use PriorityQueue for declaration and instantiation. 
 
 
 ### Internal Implementations
