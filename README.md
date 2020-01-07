@@ -108,7 +108,7 @@ COMING SOON
 * Substring problem ([Check Substring Exists](../master/algocode/src/algo/StrStr.java))
 * String Manipulation ([Compression / Decompression](../master/algocode/src/algo/StringCompressDecompress.java) / Abbreviation / [Replacement](../master/algocode/src/algo/StringReplace.java))
 * [Anagram Problems](../master/algocode/src/algo/Anagrams.java)
-* [Longest Substring Problems](../master/algocode/src/algo/LongestSubstring.java)
+* [Longest Substring Problems](../master/algocode/src/algo/LongestSub.java)
 
 ### Dynamic Programming
 * Subarray and subsequence (ascending / sum)
