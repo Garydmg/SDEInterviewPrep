@@ -11,7 +11,11 @@ This repository is updated frequently to reflect my preparation for software eng
 <a name="dataStructures"></a>
 ## Data Structures
 ### Java Interface and Implementation Hierarchy 
-* Add pic
+<img src="https://github.com/Garydmg/SDEInterviewPrep/blob/master/media/Java_Interface_Implementation.png" width="450" height="240"/>
+
+Tip: Declare with interface, instantiate with implementation.  
+*Exception*: For PriorityQueue, use PriorityQueue for declaration and instantiation. 
+
 ### Internal Implementations
 * [Resizable array](../master/algocode/src/implementation/ArrayList.java)
 * Queue and stack ([Circular Array](../master/algocode/src/implementation/ArrayDeque.java) / linked list)
@@ -85,6 +89,7 @@ COMING SOON
 * Binary search tree basic operations (search / insert / delete)
 * Build trees based on traversals
 * Least Common Ancestor problems (without parent pointer / with parent pointer)
+* Iterator problems
 
 ### Priority Queue and Best First Search
 * Kth problem (Kth smallest in unsorted array, Kth closest points to origin in 3D)
@@ -103,7 +108,7 @@ COMING SOON
 * Substring problem ([Check Substring Exists](../master/algocode/src/algo/StrStr.java))
 * String Manipulation ([Compression / Decompression](../master/algocode/src/algo/StringCompressDecompress.java) / Abbreviation / [Replacement](../master/algocode/src/algo/StringReplace.java))
 * [Anagram Problems](../master/algocode/src/algo/Anagrams.java)
-* [Longest Substring Problems](../master/algocode/src/algo/LongestSubstring.java)
+* [Longest Substring Problems](../master/algocode/src/algo/LongestSub.java)
 
 ### Dynamic Programming
 * Subarray and subsequence (ascending / sum)
@@ -118,6 +123,7 @@ COMING SOON
 * Final, finalize, finally
 * Static
 * Abstract class vs. interface
+* Types of classes
 * Overload vs. Override
 * Comparable and Comparator
 * Exception handling
