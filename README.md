@@ -112,9 +112,8 @@ COMING SOON
 
 ### Dynamic Programming
 * Subarray and subsequence (ascending / sum)
-* Cost of cutting rope
 * Array hopper (can reach destination / minimum jumps)
-* Word break problem
+* "Cutting" problem 
 * Edit distance
 * [Largest Shape Problem](../master/algocode/src/algo/LargestShape.java)
 
